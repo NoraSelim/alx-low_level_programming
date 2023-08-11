@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
-* main - hello world first c tasks
+* main - Entry point
 *
-* Description :hello world first c tasks
+* Description: 'the program's description is writing a statment'
 *
-* Result: 0 (success)
+* Return: Always 0 (Success)
 */
 int main(void)
 {printf("with proper grammar, but the outcome is a piece of art,\n");
