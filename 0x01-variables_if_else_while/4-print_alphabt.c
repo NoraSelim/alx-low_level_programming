@@ -9,7 +9,8 @@
 
 int main(void)
 {char ch, e, q;
-
+char e = 'e';
+char q = 'q';
 for (ch = 'a' ; ch <= 'z'; ch++)
 {
 if (ch != e && ch != q)
