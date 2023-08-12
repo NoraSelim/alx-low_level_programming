@@ -17,7 +17,7 @@ int main(void)
 
 	char UpCase;
 
-	for (UpCase = 'A'; UppCase <= 'Z'; UppCase++)
+	for (UpCase = 'A'; UpCase <= 'Z'; UpCase++)
 	putchar(UpCase);
 	putchar("\n");
 	return (0);
