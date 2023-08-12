@@ -15,5 +15,4 @@ for (digit = 48; digit < 58; digit++)
 putchar('\n');
 
 return (0);
-
-
+}
