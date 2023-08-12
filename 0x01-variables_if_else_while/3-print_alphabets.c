@@ -15,10 +15,9 @@ int main(void)
 	for (ch = 'a' ; ch <= 'z'; ch++)
 	putchar(ch);
 
-	char UpCase;
-
-	for (UpCase = 'A'; UpCase <= 'Z'; UpCase++)
-	putchar(UpCase);
+	for (ch = 'A'; ch <= 'Z'; ch++)
+	putchar(ch);
 	putchar("\n");
+
 	return (0);
 }
