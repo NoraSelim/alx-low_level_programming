@@ -11,9 +11,9 @@ int main(void)
 for (digit = 48; digit < 58; digit++)
 
 {
-	putchar('48' + digit);
+	putchar('0' + digit);
 if (digit < 58)
-putchat(',');
+putchar(',');
 putchar(' ');
 }
 return (0);
