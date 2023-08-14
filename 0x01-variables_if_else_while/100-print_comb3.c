@@ -8,16 +8,15 @@
  */
 int main(void)
 {int digit;
-for (digit = 48; digit < 58; digit++)
-{
-putchar(digit);
+for (digit = 0; digit < 100; digit++)
+{putchar(digit + '0');
+putchar(digit + '0');
 
-if (digit < 57)
-{
+if (digit < 99)
+
 putchar(',');
 putchar(' ');
 }
-}
-putchar('\n');
+putchar('\n')
 return (0);
 }
