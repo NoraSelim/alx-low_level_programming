@@ -11,7 +11,7 @@ int main(void)
 int b = '0';
 while (a <= '9')
 {
-	while (b <= '9' && b != a && b < a)
+	while (b <= '9' && (b != a || b < a))
 	{
 		putchar(a);
 		putchar(b);
