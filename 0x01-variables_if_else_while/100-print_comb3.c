@@ -15,11 +15,15 @@ while (a <= '9')
 	{
 		putchar(a);
 		putchar(b);
-		putchar(',');
-		putchar(' ');
 	if (a == '8' && b == '9')
 	{
 		putchar('\n');
+	}
+	else 
+	{
+		putchar(',');
+		putchar(' ')
+	
 	}
 	b++;
 	}
