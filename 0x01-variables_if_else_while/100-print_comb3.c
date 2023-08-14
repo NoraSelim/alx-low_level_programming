@@ -19,16 +19,14 @@ while (a <= '9')
 	{
 		putchar('\n');
 	}
-	else 
+	else
 	{
 		putchar(',');
 		putchar(' ');
-	
 	}
 	b++;
 	}
 a++;
-b = '0';
 }
 return (0);
 }
