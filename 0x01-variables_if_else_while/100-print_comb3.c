@@ -13,8 +13,8 @@ while (a <= '9')
 {
 	while (b <= '9' && b != a)
 	{
-		putchar('a');
-		putchar('b');
+		putchar(a);
+		putchar(b);
 		putchar(',');
 		putchar(' ');
 	if (a == '8' && b == '9')
