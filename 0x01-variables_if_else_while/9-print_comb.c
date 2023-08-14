@@ -9,10 +9,10 @@
 int main(void)
 {int digit;
 for (digit = 48; digit < 58; digit++)
-
-if (digit < 58)
-{
 putchar(digit);
+
+if (digit < 57)
+
 putchar(',');
 putchar(' ');
 }
