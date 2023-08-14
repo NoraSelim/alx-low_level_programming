@@ -22,7 +22,7 @@ while (a <= '9')
 	else 
 	{
 		putchar(',');
-		putchar(' ')
+		putchar(' ');
 	
 	}
 	b++;
