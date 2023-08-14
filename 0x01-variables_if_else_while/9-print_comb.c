@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 /**
  * main - Entry point
@@ -8,16 +9,15 @@
  */
 int main(void)
 {int digit;
-for (digit = 48; digit < 58; digit++)
-{
-putchar(digit);
-
-if (digit < 57)
-{
+int digit2; 
+for (digit = 0; digit < 100; digit++)
+{putchar(digit);
+}
+putchar(digit2);
+if (digit2 != digit)
 putchar(',');
 putchar(' ');
 }
-}
 putchar('\n');
 return (0);
-}
+
