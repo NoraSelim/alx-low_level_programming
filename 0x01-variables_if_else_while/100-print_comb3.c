@@ -11,10 +11,13 @@ int main(void)
 int b = '0';
 while (a <= '9')
 {
-	while (b <= '9' && b !== a || b < a)
+	while (b <= '9')
+	{
+		if (!(b == a || a > b))
 	{
 		putchar(a);
 		putchar(b);
+	}
 	if (a == '8' && b == '9')
 	{
 		putchar('\n');
@@ -26,6 +29,7 @@ while (a <= '9')
 	}
 	b++;
 	}
+b = '0';
 a++;
 }
 return (0);
