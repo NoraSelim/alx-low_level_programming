@@ -7,16 +7,24 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{int digit;
-for (digit = 0; digit < 100; digit++)
-{putchar(digit + '0');
-putchar(digit + '0');
-
-if (digit < 99)
-
-putchar(',');
-putchar(' ');
+{int a = 0;
+int b = 0;
+while (a <= '9')
+{
+	while (b <= '9' && b != a)
+	{
+		putchar('a');
+		putchar('b');
+		putchar(',');
+		putchar(' ');
+	if (a == '8' && b == '9')
+	{
+		putchar('\n');
+	}
+	b++;
+	}
+a++;
+b = '0';
 }
-putchar('\n')
 return (0);
 }
