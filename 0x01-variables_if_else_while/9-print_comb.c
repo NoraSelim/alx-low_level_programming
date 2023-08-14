@@ -9,7 +9,7 @@
 int main(void)
 {int digit;
 for (digit = 48; digit < 57; digit++)
-putchar(digit);
+putchar(digit+'0');
 
 if (digit < 57)
 {
