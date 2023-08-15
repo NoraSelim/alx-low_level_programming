@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * print_alphabet_x10 - Entry point
  *
@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 {
 	int rows;
 	int ch;
-	for (row = 0 ;rows <=10 ;rows++)
+	for (rows = 0 ;rows <=10 ;rows++)
 	{
 		for (ch = 'a' ; ch <= 'z'; ch++)
 		{
