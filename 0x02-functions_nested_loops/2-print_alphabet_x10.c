@@ -14,8 +14,10 @@ void print_alphabet_x10(void)
 	for (rows = 0; rows <= 9; rows++)
 	{
 		for (ch = 'a' ; ch <= 'z'; ch++)
+		{
 			_putchar(ch);
 			_putchar('\n');
+		}
 	}
 return (0);
 }
