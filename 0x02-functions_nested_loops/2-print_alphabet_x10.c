@@ -6,18 +6,15 @@
  *
  * Return: Always 0 (Success)
  */
-
 void print_alphabet_x10(void)
-{
-	int rows;
-	int ch;
+{	int rows, ch;
 	for (rows = 0; rows <= 9; rows++)
 	{
 		for (ch = 'a' ; ch <= 'z'; ch++)
 		{
-			_putchar(ch);;
+		_putchar(ch);
 		}
-		_putchar('\n')
+	_putchar('\n');
 	}
 return (0);
 }
