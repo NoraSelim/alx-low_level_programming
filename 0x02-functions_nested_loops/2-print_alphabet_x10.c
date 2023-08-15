@@ -1,21 +1,25 @@
-#include "main.h"
+include "main.h"
+
 /**
- * print_alphabet_x10 - Entry point
- *
- * Description: 'the program's about writinh alphabitics'
- *
- * Return: Always 0 (Success)
+ * print_alphabet_x10 - prints 10 times alphabet, in lowercase,
+ * followed by a new line
  */
 void print_alphabet_x10(void)
-{	int rows, ch;
-	for (rows = 0; rows <= 9; rows++)
-	{
-		for (ch = 'a' ; ch <= 'z'; ch++)
-		{
-		_putchar(ch);
-		}
-	_putchar('\n');
-	}
-return (0);
-}
+{
+char ch;
+int i;
 
+i = 0;
+
+while (i < 10)
+{
+ch = 'a';
+while (ch <= 'z')
+{
+_putchar(ch);
+ch++;
+}
+_putchar('\n');
+i++;
+}
+}
