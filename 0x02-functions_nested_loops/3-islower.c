@@ -2,7 +2,7 @@
 /**
  * _islower  - Entry point
  *
- * Description: 'the program's about writinh alphabitics'
+ * @c: 'the program's about writinh alphabitics'
  *
  * Return: Always 1 if lowercase otherwise return 0  (Success)
  */
