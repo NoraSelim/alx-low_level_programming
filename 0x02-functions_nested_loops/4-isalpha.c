@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * _islower  - Entry point
+ * _isalpha  - Entry point
  *
  * @c: 'the program's about writinh alphabitics'
  *
  * Return: Always 1 if lowercase otherwise return 0  (Success)
  */
 
-int _islower(int c)
+int _isalpha(int c);
 {
         if (c > 97 && c < 122 )
         {
