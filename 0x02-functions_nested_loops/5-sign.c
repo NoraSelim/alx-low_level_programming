@@ -7,7 +7,7 @@
  * Return: Always 1 if lowercase otherwise return 0  (Success)
  */
 
-int print_sign(int n);
+int print_sign(int n)
 { if (n > 0)
 	{
 	_putchar('+');
