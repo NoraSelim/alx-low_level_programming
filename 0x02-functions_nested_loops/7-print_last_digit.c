@@ -14,7 +14,7 @@ lastd = n % 10;
 }
 else
 {
-lastd = (-1) * n % 10;
+lastd = (-1) * (n % 10);
 }
 _putchar(lastd + '0');
 return (lastd);
