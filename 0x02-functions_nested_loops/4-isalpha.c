@@ -7,7 +7,7 @@
  * Return: Always 1 if lowercase otherwise return 0  (Success)
  */
 
-int _isalpha(int c);
+int _isalpha(int c)
 {
         if (c > 97 && c < 122 )
         {
