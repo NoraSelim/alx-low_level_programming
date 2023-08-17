@@ -1,21 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * print_most_numbers - Entry point
  *
  * Return: Always 0 (Success)
  */
-void print_most_numbers(void);
-{int digit;
-for (digit = 0; digit < 10; digit++)
-{putchar(digit + '0');
 
-if (digit < 9)
+void print_numbers(void)
 {
-putchar(',');
-putchar(' ');
+	int a;
+	
+	for (a = 0; a <= 9; a++)
+	{
+		if (a == 2 || a == 4)
+			continue;
+			_putchar('a');
+	}
+	_putchar('\n');
 }
-putchar('\n');
-}
-return (0);
-}
-
