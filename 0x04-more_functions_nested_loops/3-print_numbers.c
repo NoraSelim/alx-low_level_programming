@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *  - Entry point
+ * print_numbers - Entry point
  *
- * print_numbers: 'print numbers'
+ * description: 'print numbers'
  *
  * Return: Always 0 (Success)
  */
