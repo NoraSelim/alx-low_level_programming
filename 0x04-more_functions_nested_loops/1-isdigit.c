@@ -2,7 +2,7 @@
 /**
  * _isdigit - Entry point
  *
- * Description: 'the program's about writing function'
+ * @c : 'the program's about writing function'
  *
  * Return: return 1 or 0 (Success)
  */
