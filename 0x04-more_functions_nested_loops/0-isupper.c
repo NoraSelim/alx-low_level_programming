@@ -5,14 +5,16 @@
  *
  * @c : 'the program's about writinh alphabitics'
  *
- * Return: Always 0 (Success)
+ * Return: return 1 or 0 (Success)
  */
 int _isupper(int c)
 {
-        if (c >= 65 && c <= 90)
-                return (1);
-        else
-                return (0);
+	if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
-~                                                                                                                                                    
-~         
