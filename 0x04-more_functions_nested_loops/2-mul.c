@@ -1,10 +1,11 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * mul - Entry point
  *
- * Description: 'the program's about writinh alphabitics'
+ * @a:'return value'
+ * @b: 'return value'
  *
- * Return: Always 0 (Success)
+ * Return: return multiply (Success)
  */
 int mul(int a, int b);
 {
