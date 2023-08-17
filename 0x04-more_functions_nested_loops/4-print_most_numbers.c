@@ -2,7 +2,7 @@
 /**
  * print_most_numbers - print 0 to 9 apart from 2 and 4
  * apart from 2 and 4 
- * you can use putchar twice
+ * you can use _putchar twice
  * Return: Always 0 (Success)
  */
 
