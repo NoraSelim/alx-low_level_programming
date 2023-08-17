@@ -14,7 +14,7 @@ void print_numbers(void)
 		if (a == 2 || a == 4)
 		{
 			continue;
-			_putchar('a');
+			_putchar(a + 48);
 		}
 	}
 	_putchar('\n');
