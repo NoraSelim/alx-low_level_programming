@@ -8,19 +8,23 @@
  */
 void more_numbers(void)
 {
+	int count;
+	int num;
 	int lines = 0;
 
 	while (lines <= 10)
 	{
-		int n = 0;
-
-		while (n <= 14)
+		while (num <= 14)
 		{
-			n++;
-			_putchar (n + '0');
+			num = count;
+		if (count > 9)
+		{
+			_putchar(1 + 48);
+			num = count % 10;
 		}
-		lines++;
+		n++;
+		_putchar (num + 48);
+		}
 		_putchar ('\n');
 	}
-	_putchar('\n');
 }
