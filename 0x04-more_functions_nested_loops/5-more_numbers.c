@@ -1,30 +1,24 @@
 #include "main.h"
 /**
- * more_numbers - Entry point
- *
- * Description: 'the program's about nested loops'
- *
- * Return: Always 0 (Success)
- */
+*more_numbers - prints numbers to 14
+*
+*Return: returns nothing
+*/
 void more_numbers(void)
 {
-	int count;
-	int num;
-	int lines = 0;
+int number1, number2;
 
-	while (lines <= 10)
-	{
-		while (num <= 14)
-		{
-			num = count;
-		if (count > 9)
-		{
-			_putchar(1 + 48);
-			num = count % 10;
-		}
-		n++;
-		_putchar (num + 48);
-		}
-		_putchar ('\n');
-	}
+for (number1 = 0; number1 < 10; number1++)
+{
+for (number2 = 0; number2 <= 14; number2++)
+
+{
+if (number2 > 9)
+{
+_putchar((number2 / 10) + '0');
+}
+_putchar((number2 % 10) + '0');
+}
+_putchar(10);
+}
 }
