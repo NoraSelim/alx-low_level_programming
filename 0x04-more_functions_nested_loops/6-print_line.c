@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_line - prints _ for n times
  * @n: number of repeats
