@@ -1,10 +1,9 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * print_diagonal - Entry point
  *
  * @n: 'the program's about drawing a \'
  *
- * Return: Always 0 (Success)
  */
 void print_diagonal(int n)
 {
