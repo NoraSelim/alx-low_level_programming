@@ -1,10 +1,8 @@
 #include "main.h"
+
 /**
- *  print_line - Entry point
- *
- * @n: 'drawing a line'
- *
- * Return: Always 0 (Success)
+ * print_line - prints _ for n times
+ * @n: number of repeats
  */
 void print_line(int n)
 {
