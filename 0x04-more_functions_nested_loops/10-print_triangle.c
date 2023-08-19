@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
  * print_triangle - Print a triangle.
  * @size: How big the triangle would be.
@@ -16,9 +14,9 @@ void print_triangle(int size)
 	}
 	else
 	{
-		for (int line = 0; line < size ; line++)
+		for (int line = 1; line < size ; line++)
 		{
-			for (int space = 0 ; space <= size ; space++)
+			for (int space = 1 ; space <= size ; space++)
 			{
 				if (space <= (size - line))
 				{
