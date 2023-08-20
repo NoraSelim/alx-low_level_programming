@@ -8,18 +8,19 @@
  */
 void times_table(void)
 {
-	int line, x, y, z;
-	line == y;
-	int z = x * Y;
+	int y, x;
 
-	for (line = 0; line < x; line++)
+	for (y = 0; y < x; y++)
 	{
-		for (x = 0; x < 8; x++)
+		for (x = 0; x < 9; x++)
 		{
-			Putchar('z');
-			putchar(',');
-			putchar(' ');
+			_Putchar(x * y);
 		}
+		 if (y < 9)
+                {
+                        _putchar(' ');
+                        _putchar(',');
+                }
 	_putchar('\n');
-	}
+	} 
 }
