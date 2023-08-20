@@ -8,8 +8,8 @@
  */
 void times_table(void)
 {
-	int line, x, Y;
-	int line == y;
+	int line, x, y, z;
+	line == y;
 	int z = x * Y;
 
 	for (line = 0; line < x; line++)
