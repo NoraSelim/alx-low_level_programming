@@ -21,8 +21,11 @@ void times_table(void)
 			}
 			else
 			{
+				if (x < 9)
+				{
 				_putchar(' ');
 				_putchar('0' + (x * y));
+				}
 			}
 
 			if (x < 9)
