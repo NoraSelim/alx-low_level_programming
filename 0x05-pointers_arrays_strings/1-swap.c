@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * swap_int - Entry point
  *
- * @a: 'paramter1'
+ * @a: 'paramter 1'
  * @b: 'tparameter 2'
  *a
  * Return: Always 0 (Success)
