@@ -5,7 +5,7 @@
  * @s: 'the program's about writinh alphabitics'
  *
  * Return: Always 0 (Success)
- */i
+ */
 void rev_string(char *s)
 {
 	int halfcount, length;
