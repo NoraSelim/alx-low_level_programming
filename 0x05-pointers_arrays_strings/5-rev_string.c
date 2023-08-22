@@ -15,8 +15,8 @@ void print_rev(char *s)
 
 		for (halfcount=0; halfcount < length / 2; halfcount++)
 		{
-			rev = s[i];
-			s[i]= s[length - 1 - halfcount];
+			rev = s[halfcount];
+			s[halfcount]= s[length - 1 - halfcount];
 			s[length - 1 - halfcount] = rev;
 		}
 }
