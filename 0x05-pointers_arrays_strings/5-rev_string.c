@@ -11,7 +11,7 @@ void rev_string(char *s)
 	int halfcount, length;
 	char rev;
 
-	for (length = 0; length != '\0'; ++length)
+	for (length = 0; s[length] != '\0'; length++)
 
 	for (halfcount = 0; halfcount < length / 2; halfcount++)
 		{
