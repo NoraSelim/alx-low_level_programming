@@ -1,22 +1,26 @@
 #include "main.h"
+
 /**
- * print_rev - Entry point
- *
- * @s: 'the program's about writinh alphabitics'
- *
- * Return: Always 0 (Success)
+ * print_rev - prints a string in reverse, followed by a new line
+ * @s: string to be printed
  */
 void print_rev(char *s)
 {
-	int halfcount, length;
-	char rev;
+	int i, j, len;
 
-	for (length = 0; length != '\0'; length++)
-	
-	for (halfcount=0; halfcount < length / 2; halfcount++)
+	i = 0;
+
+	while (s[i] != '\0')
 	{
-		rev = s[i];
-		s[i]= s[length - 1 - halfcount];
-		s[length - 1 - halfcount] = rev;
+		i++;
 	}
+
+	len = i;
+
+	for (j = len - 1; j >= 0; j--)
+	{
+		_putchar(s[j]);
+	}
+
+	_putchar('\n');
 }

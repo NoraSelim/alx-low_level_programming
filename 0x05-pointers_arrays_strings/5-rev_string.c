@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * print_rev - Entry point
+ * rev_string - Entry point
  *
  * @s: 'the program's about writinh alphabitics'
  *
  * Return: Always 0 (Success)
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int halfcount, length;
 	char rev;
