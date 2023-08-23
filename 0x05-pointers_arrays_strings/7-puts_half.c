@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * puts_half : 'the program's about writinh alphabitics'
+ * puts_half : 'the program's about array of string'
  *
  * Return: Always 0 (Success)
  */
@@ -12,17 +12,20 @@ void puts_half(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 		;
-	//try if (j = 0 ; j < i/2 ;i++)
 	if (i % 2  == 0)
 	{
-		for (j = i / 2; str[i] != '\0'; j++)
+		for (j = i / 2; str[j] != '\0'; j++)
 		{
-			_putchar(str[i]);
+			_putchar(str[j]);
 		}
 	}
 	else
 	{
-		for(n = (i - 1) /2; 
+		n = (n - 1) / 2;
+		for (j = n ; str[j] != '\0'; j++)
+		{
+			_Putchar(str[j]);
+		}
 	}
 }
 
