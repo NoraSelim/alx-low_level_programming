@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
+ * puts_half - Entry point
  *
- * puts_half : 'the program's about array of string'
+ * @str : 'the program's about array of string'
  *
  * Return: Always 0 (Success)
  */
