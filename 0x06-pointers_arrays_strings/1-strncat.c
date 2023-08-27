@@ -2,24 +2,22 @@
 
 /**
  * _strcat - Entry point
- *
- * @dest : ' the source file '
- * @src : 'the second file'
- *
+ * @dest: the source file
+ * @src: the second file
  * Return: dest;
  */
 
 char *_strcat(char *dest, char *src)
 {
+	int dl = 0;
+	int sl = 0;
 	int i;
-	int destlength = 0;
-	int srclength = 0;
 
 	for (i = 0; dest[i] != '\0' ; i++)
-		destlength++;
+		dl++;
 	for (i = 0; src[i] != '\0' ; i++)
-		srclength++;
-	for (i = 0; srclength <= i ; i++)
-		dest[destlength + i] = src[i];
+		sl++;
+	for (i = 0; i <= sl ; i++)
+		dest[dl + i] = src[i];
 	return (dest);
 }
