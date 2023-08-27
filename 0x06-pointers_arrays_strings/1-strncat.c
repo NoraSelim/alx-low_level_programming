@@ -1,13 +1,14 @@
-#include<stdio.h>
 #include "main.h"
+
 /**
  * _strcat - Entry point
  *
  * @dest : ' the source file '
  * @src : 'the second file'
  *
- * Return: Always 0 (Success)
+ * Return: dest;
  */
+
 char *_strcat(char *dest, char *src)
 {
 	int i;
@@ -19,6 +20,6 @@ char *_strcat(char *dest, char *src)
 	for (i = 0; src[i] != '\0' ; i++)
 		srclength++;
 	for (i = 0; srclength <= i ; i++)
-		dest[destlength + i] = src[i]
+		dest[destlength + i] = src[i];
 	return (dest);
 }
