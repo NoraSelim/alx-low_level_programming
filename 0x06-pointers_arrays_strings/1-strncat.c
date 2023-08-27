@@ -1,24 +1,23 @@
 #include<stdio.h>
 #include "main.h"
 /**
- * _strcat - Entry point
+ * _strncat - Entry point
  *
  * @dest : ' the source file '
  * @src : 'the second file'
- *
+ * @n : 'the variable'
  * Return: dest;
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i;
-	destlength = 0;
-	srclength = 0;
+	int destlen = strlen(dest);
 
-	for (i = 0; dest[i] != '\0' ; i++)
-		destlength++;
-	for (i = 0; src[i] != '\0' ; i++)
-		srclength++;
-	for (i = 0; i <= srclength ; i++)
-		dest[destlength + i] = src[i];
-		return (dest);
+	for (i = 0; i < n && src[i] != '\0' ; i++)
+	{
+		dest[destlen + i] = src[i];
+		dest[destlen + i] = '\0';
+	}
+
+	return (dest);
 }
