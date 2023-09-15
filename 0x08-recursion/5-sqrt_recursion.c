@@ -2,7 +2,7 @@
 /**
  *comparar - function that returns the power of number
  *@n: original number
- *@y: counter to compare multiplication
+ *@a: counter to compare multiplication
  *
  *Return: square root
  */
@@ -20,10 +20,10 @@ int comparar(int n, int a)
 	return (comparar(n, a + 1));
 }
 /**
-*_sqrt_recursion - function that returns the power of number
-*@n: number
-*Return: the natural square root
-*/
+ *_sqrt_recursion - function that returns the power of number
+ *@n: number
+ *Return: the natural square root
+ */
 int _sqrt_recursion(int n)
 {
 	return (comparar(n, 1));
