@@ -1,5 +1,5 @@
-#include <stdlib.h>
 #include "variadic_functions.h"
+#include <stdlib.h>
 
 /**
  * t_char - print a character
@@ -79,7 +79,7 @@ void print_all(const char * const format, ...)
 	y = 0;
 	count = 0;
 	va_start(valist, format);
-	while (format != NULL && format[i])
+	while (format != NULL && format[y])
 	{
 		j = 0;
 		while (j < 4)
