@@ -1,43 +1,43 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * _realloc - function that reallocates a memory block using malloc and free
- * @ptr: void pointer
- * @old_size: old memory allocated
- * @new_size: new memory allocated
- * Return: Always 0.
+ * _realloc - Entry point
+ *@ptr: pointer to the memory previously allocated
+ *@old_size: size of the allocated ptr
+ *@new_size: size of new memory block
+ * Return: a pointer to an array
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
-	unsigned int a;
-	char *n;
-	char *o;
+	char *array = NULL;
+	char *p = NULL;
+	unsigned int x;
+	char *px = NULL;
 
-	old = ptr;
-
-	if (old_size == new_size)
-		return (ptr);
-	if (ptr == 0)
+	if (ptr == NULL)
 	{
-		n = malloc(new_size * sizeof(char));
-		return (n);
+		array = malloc(new_size);
+		if (array == NULL)
+			return (NULL);
+		return (array);
 	}
-	if (new_size == 0 && ptr != 0)
+	if (new_size == 0 && ptr != NULL)
 	{
 		free(ptr);
 		return (NULL);
 	}
-	n = malloc(new_size * sizeof(char));
-	if (n == 0)
-		return (NULL);
-	if (new_size < old_size)
+	if (new_size ==  old_size)
+		return (ptr);
+	p = malloc(new_size);
+	if (p != NULL)
 	{
-		for (a = 0; a < new_size; a++)
-			n[a] = o[a];
-		return (n);
+		px = (char *)ptr;
+		for (x = 0; x < old_size; x++)
+			p[x] = px[x];
+		free(ptr);
+		return (p);
 	}
-	free(ptr);
-	return (n);
+	return (NULL);
 }
