@@ -9,12 +9,11 @@
 
 void free_listint(listint_t *head)
 {
-listint_t *tempp;
+	size_t node;
+	while (head)
+	{
+		node = head;
+		node->next;
+		free (node);
+	}
 
-while (head != NULL)
-{
-tempp = head;
-head = head->next;
-free(tempp);
-}
-}
