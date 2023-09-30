@@ -5,16 +5,19 @@
  *@head: pointer to the head of the list
  *
  *Return: void
- */
+*/
 
 void free_listint2(listint_t **head)
 {
-	listint_t node;
+	listint_t *temp_variable;
 
-	while((head != null) && (head* != null))
+	if (head == NULL)
+		return; /* do not do anything */
+	while (*head != NULL)
 	{
-		*head = node;
-		head = node->next;
-		free(node);
+		temp_variable =  *head;
+		*head = (*head)->next;
+		free(temp_variable);
 	}
+	/* *head = NULL; */ /* not needed */
 }
