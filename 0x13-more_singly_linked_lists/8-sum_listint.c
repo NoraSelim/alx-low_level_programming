@@ -27,6 +27,6 @@ else
 				head = head->n;
 			sum += data;
 		}
-		return (data);
+		return (sum);
 	}
 }
