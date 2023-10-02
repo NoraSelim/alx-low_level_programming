@@ -10,22 +10,17 @@
  */
 int sum_listint(listint_t *head)
 
-	int data;
 	int sum = 0;
 
 if (head == (NULL))
 {
 	return (0);
 }
-else
-{
-	for (int data = 0; data < n ; data++)
-	{
-		if (head != NULL)
+while (head)
 		{
 			head = head->next;
-				head = head->n;
-			sum += data;
+			head = head->n;
+			sum += n;
 		}
 		return (sum);
 	}
