@@ -23,9 +23,10 @@ else
 	{
 		if (head != NULL)
 		{
-			head = head->next
+			head = head->next;
 				head = head->n;
-			sum+= data
+			sum += data;
 		}
 		return (data);
 	}
+}
